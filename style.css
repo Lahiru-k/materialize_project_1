@@ -1,4 +1,5 @@
-.col > div {
-    background-color: teal;
-    height: 120px;
+nav .badge {
+    position: relative;
+    top: 10px;
+    right: 20px;
 }
