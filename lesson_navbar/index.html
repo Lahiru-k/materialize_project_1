@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Materialize</title>
+    </head>
+    <body>
+
+        <nav class="nav-wrapper indigo">
+            <div class="container">
+                <a href="#" class="brand-logo">Metrics Blog</a>
+                <a href="#" class="sidenav-trigger" data-target="sidenav-links">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li>
+                        <a href="#" class="btn-floating pink lighten-1 waves-effect waves-light">
+                            <i class="material-icons">notifications</i>
+                        </a>
+                    </li>
+                    <li><span class="badge pink darken-1 white-text new">5</span></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="sidenav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav()
+            })
+        </script>
+    </body>
+</html>
