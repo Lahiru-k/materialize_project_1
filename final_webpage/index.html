@@ -12,13 +12,82 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <!-- stylesheet -->
         <link rel="stylesheet" href="resources/css/style.css">
-        <title></title>
+        <title>Photo Crater</title>
     </head>
     <body>
+        <!-- navbar -->
+        <header>
+            <nav class="nav-wrapper transparent fixed">
+                <div class="container">
+                    <a href="#" class="brand-logo">Photo Crater</a>
+                    <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#">Photos</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                    <ul class="sidenav grey lighten-2" id="mobile-menu">
+                        <li><a href="#">Photos</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- photo/ grid -->
+        <section class="section container" id="photo-container">
+            <div class="row">
+                <div class="col l4 s12">
+                    <img class="responsive-img materialboxed" src="resources/img/portrait.jpg" alt="">
+                </div>
+                <div class="col l6 s12 offset-l1">
+                    <h3 class="indigo-text text-darken-4">Portriats</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col l4 s12 push-l6 offset-l1">
+                    <img class="responsive-img materialboxed" src="resources/img/city.jpg" alt="">
+                </div>
+                <div class="col l6 s12 pull-l5 right-align">
+                    <h3 class="indigo-text text-darken-4">Cityscrapes</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col l4 s12">
+                    <img class="responsive-img materialboxed" src="resources/img/nature.jpg" alt="">
+                </div>
+                <div class="col l6 s12 offset-l1">
+                    <h3 class="indigo-text text-darken-4">Nature</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+                    </p>
+                </div>
+        </section>
+        <!-- parallax -->
 
-        <!-- materialize.js -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- services/ tab -->
+
+        <!-- parallax -->
+
+        <!-- contact form -->
+
+        <!-- footer -->
+
         <!-- jquery.js -->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <!-- materialize.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- custom js -->
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+                $('.materialboxed').materialbox();
+            });
+        </script>
     </body>
 </html>
