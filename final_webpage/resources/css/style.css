@@ -14,3 +14,24 @@ header {
 .section .l4 {
     padding-top: 40px;
 }
+
+.parallax-container {
+    height: 300px;
+}
+
+.services .l4, .services .l6 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.tabs .indicator {
+    background-color: #1a237e;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: transparent;
+}
+
+.padding-top-please {
+    padding-top: 2em;
+}
